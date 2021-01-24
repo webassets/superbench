@@ -782,10 +782,7 @@ cleanup() {
 
 bench_all(){
   mode_name="Standard"
-  about;
   benchinit;
-  next;
-  print_intro;
   next;
   get_system_info;
   print_system_info;
@@ -799,10 +796,7 @@ bench_all(){
 
 fast_bench(){
   mode_name="Fast"
-  about;
   benchinit;
-  next;
-  print_intro;
   next;
   get_system_info;
   print_system_info;

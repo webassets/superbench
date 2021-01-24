@@ -782,9 +782,18 @@ cleanup() {
 
 bench_all(){
   mode_name="Standard"
+  about;
   benchinit;
   next;
-  print_speedtest_fast;
+  print_intro;
+  next;
+  get_system_info;
+  print_system_info;
+  ip_info4;
+  next;
+  print_io fast;
+  next;
+  print_speedtest;
   next;
   print_end_time;
   next;
@@ -793,7 +802,16 @@ bench_all(){
 
 fast_bench(){
   mode_name="Fast"
+  about;
   benchinit;
+  next;
+  print_intro;
+  next;
+  get_system_info;
+  print_system_info;
+  ip_info4;
+  next;
+  print_io fast;
   next;
   print_speedtest_fast;
   next;

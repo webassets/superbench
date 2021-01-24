@@ -793,10 +793,6 @@ bench_all(){
   next;
   print_io;
   next;
-  print_speedtest;
-  next;
-  print_end_time;
-  next;
   cleanup;
   sharetest ubuntu;
 }

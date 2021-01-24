@@ -785,14 +785,6 @@ bench_all(){
   about;
   benchinit;
   next;
-  print_intro;
-  next;
-  get_system_info;
-  print_system_info;
-  ip_info4;
-  next;
-  print_io;
-  next;
   print_speedtest;
   next;
   print_end_time;
